@@ -1,4 +1,6 @@
 <?php
+include('book_appointment.php');
+
 $name = $_GET['name'] ?? 'Guest';
 $email = $_GET['email'] ?? '';
 $phone = $_GET['phone'] ?? '';
